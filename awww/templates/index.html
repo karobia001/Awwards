@@ -17,9 +17,9 @@
 
   <div class="row">
     {% for post in projects %}
-    <div class="col-md-4">
-      <h5 class="text-center"> {{post.title}}</h5>
-      <a href="{% url 'projects' post.id %}"><img src="{{post.image.url}}" class="img-responsive" alt="Project" ></a>
+    <div class="cards col-md-4">
+      <h5 class="text-center" style="color:blanchedalmond"> {{post.title}}</h5>
+      <a href="{% url 'projects' post.id %}"><img src="{{post.image.url}}" class="img-responsive thumbnail" alt="Project" width="350px" , height="400px"></a>
 
     </div>
     {% endfor %}
