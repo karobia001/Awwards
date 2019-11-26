@@ -4,7 +4,8 @@
 ## Description
 This is an Awwarding application to all our applications
 
-![App live Image]( image/screen.png "Instagram Clone App")
+
+![App live Image]( media/profile/app.png "our Award application")
 
 
 
@@ -14,14 +15,14 @@ This is an Awwarding application to all our applications
 | Behavior            | Input                         | Output                        |
 | ------------------- | ----------------------------- | ----------------------------- |
 | enter our page | login with your username | you are taken to our homepage |
-| Post Image | Click on the post  icon| User redirected to the post image form where they can post the image and write a caption |
-| Search | Search users| Redirects you to user's profile page |
-| Comment | Click on the comment icon | Takes the user to the page where you can write and post a comment about the specific image|
+| add project | Click on the add project | you are taken to the add project page where you fill in the spaces provided |
+| Search | Search project name| Redirects you to the projects information profile page |
+| Rating | Click on the picture | take the user to the rating page where you rate the project |
 
 
 ## Live link
 
-https://dennogram.herokuapp.com/
+https://dennoward.herokuapp.com/
 
 ### Prerequsites
     - Python 3.6
@@ -31,7 +32,7 @@ https://dennogram.herokuapp.com/
 ### Clone the Repo
 Run the following command on the terminal:
 
-`git clone https://github.com/karobia001/Insta-clone`
+`git clone https://github.com/karobia001/Awwards.git`
 
 Install  [Postgres](https://www.postgresql.org/download/)
  
